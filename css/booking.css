@@ -1,0 +1,110 @@
+body {
+	background: rgba(0,0,0,1);
+}
+
+header {
+	text-align: center;
+	color: white;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+header a {
+	display: inline-block;
+}
+
+h1 {
+	display: inline-block;
+	color: rgba(11,228,11,1);
+	font-family: 'Bungee Inline';
+	font-size: 8vw;
+}
+
+section h1 {
+	font-size: 5vw;
+}
+
+#hamburger {
+	border: rgba(11,228,11,1) 3px solid;
+	border-radius: 5px;
+	width: 7vw;
+	height: 4vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.line {
+	border: rgba(11,228,11,1) 1px solid;
+	width: 50%;
+	height: 0;
+}
+
+#mobile-menu {
+	display: flex;
+	visibility: hidden;
+	position: absolute;
+	top: 450%;
+	left: -50%;
+	transform: translate(-50%, -50%);
+	border: rgba(11,228,11,1) 3px solid;
+	width: 30vw;
+	height: 30vw;
+	background: rgba(0,0,0,1);
+	z-index: 1;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.dropdown {
+	text-decoration: none;
+	font-size: 250%;
+	color: rgba(11,228,11,1);
+	width: 100%;
+}
+
+nav {
+	display: inline-block;
+	position: relative;
+}
+
+section {
+	text-align: center;
+	padding: 0% 0 5% 0;
+	color: rgba(11,228,11,1);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+
+input {
+	border-radius: 10px;
+	margin-bottom: 5%;
+	height: 3.5em;
+}
+
+input::placeholder {
+	font-size: 1.5em;
+}
+
+input[type="submit"] {
+	border-radius: 0px;
+}
+
+video {
+	width: 80%;
+}
+
+footer {
+	text-align: center;
+	margin: 0% 0% 0% 0%;
+}
