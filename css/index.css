@@ -17,9 +17,14 @@ header a {
 
 h1 {
 	display: inline-block;
-	color: rgba(11,228,11,1);
 	font-family: 'Bungee Inline';
 	font-size: 8vw;
+}
+
+h1 a {
+	text-decoration: none;
+	width: 100%;
+	color: rgba(11,228,11,1);
 }
 
 #hamburger {

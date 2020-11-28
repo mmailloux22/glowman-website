@@ -12,6 +12,11 @@ header {
 
 header a {
 	display: inline-block;
+	width: 8%;
+}
+
+header img {
+	width: 100%;
 }
 
 h1 {
@@ -19,6 +24,12 @@ h1 {
 	color: rgba(11,228,11,1);
 	font-family: 'Bungee Inline';
 	font-size: 8vw;
+}
+
+h1 a {
+	text-decoration: none;
+	width: 100%;
+	color: rgba(11,228,11,1);
 }
 
 section h1 {
@@ -83,17 +94,18 @@ section {
 form {
 	display: flex;
 	flex-direction: column;
-	width: 50%;
+	width: 70%;
 }
 
 input {
 	border-radius: 10px;
 	margin-bottom: 5%;
-	height: 3.5em;
+	font-size: 5em;
 }
 
-input::placeholder {
-	font-size: 1.5em;
+input[type="date"] {
+	width: 100%;
+	font-size: 5em;
 }
 
 input[type="submit"] {
