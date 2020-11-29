@@ -36,6 +36,10 @@ section h1 {
 	font-size: 5vw;
 }
 
+button {
+	background: rgba(0,0,0,0);
+}
+
 #hamburger {
 	border: rgba(11,228,11,1) 3px solid;
 	border-radius: 5px;
@@ -91,6 +95,10 @@ section {
 	align-items: center;
 }
 
+p {
+	font-size: 1.7em;
+}
+
 form {
 	display: flex;
 	flex-direction: column;
@@ -119,4 +127,19 @@ video {
 footer {
 	text-align: center;
 	margin: 0% 0% 0% 0%;
+}
+
+footer a {
+	display: inline;
+	color: rgba(11,228,11,1);
+	font-family: 'Bungee Inline';
+	font-size: 4vw;
+	text-decoration: none;
+}
+
+footer nav {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
 }
