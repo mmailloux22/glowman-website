@@ -81,6 +81,10 @@ button {
 	width: 100%;
 }
 
+.full-nav {
+	display: none;
+}
+
 nav {
 	display: inline-block;
 	position: relative;
@@ -142,4 +146,26 @@ footer nav {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
+}
+
+@media screen and (min-width: 688px) {
+	nav {
+		display: none;
+	}
+
+	.full-nav {
+		display: flex;
+		flex-direction: row;
+		position: static;
+		justify-content: space-evenly;
+		width: 30%;
+	}
+
+	nav a {
+		width: 100%;
+		font-size: 3vw;
+		text-decoration: none;
+		color: rgba(11,228,11,1);
+		font-family: 'Bungee Inline';
+	}
 }
